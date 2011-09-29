@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NavigationControllerExampleAppDelegate : NSObject <UIApplicationDelegate>
+@class FirstViewController;
+@class AnotherViewController;
+
+@interface NavigationControllerExampleAppDelegate : NSObject <UIApplicationDelegate> {
+    UINavigationController *navigation;
+    FirstViewController *firstView;
+    AnotherViewController *anotherView;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 

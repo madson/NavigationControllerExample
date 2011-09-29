@@ -7,6 +7,8 @@
 //
 
 #import "NavigationControllerExampleAppDelegate.h"
+#import "FirstViewController.h"
+#import "AnotherViewController.h"
 
 @implementation NavigationControllerExampleAppDelegate
 
@@ -14,7 +16,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // creates an instance of FirstViewController
+    firstView   = [[FirstViewController alloc] init];
+
+    // creates an instance of UINavigationController whith instance of
+    // FirstViewController as root view, without this the navigation
+    // not become to window
+    navigation  = [[UINavigationController alloc] initWithRootViewController:firstView];
+    
+    [self.window addSubview:navigation.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

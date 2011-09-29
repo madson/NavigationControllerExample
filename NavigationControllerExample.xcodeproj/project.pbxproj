@@ -14,6 +14,12 @@
 		D7E7823E14352C0400D8594F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7823D14352C0400D8594F /* main.m */; };
 		D7E7824214352C0400D8594F /* NavigationControllerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7824114352C0400D8594F /* NavigationControllerExampleAppDelegate.m */; };
 		D7E7824514352C0400D8594F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E7824314352C0400D8594F /* MainWindow.xib */; };
+		D7E7824E14352C5000D8594F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7824C14352C5000D8594F /* FirstViewController.m */; };
+		D7E7824F14352C5000D8594F /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E7824D14352C5000D8594F /* FirstViewController.xib */; };
+		D7E7825314352C6000D8594F /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7825114352C6000D8594F /* AnotherViewController.m */; };
+		D7E7825414352C6000D8594F /* AnotherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E7825214352C6000D8594F /* AnotherViewController.xib */; };
+		D7E7825814352FFD00D8594F /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7825614352FFD00D8594F /* LastViewController.m */; };
+		D7E7825914352FFD00D8594F /* LastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E7825714352FFD00D8594F /* LastViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +27,22 @@
 		D7E7823114352C0400D8594F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D7E7823314352C0400D8594F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7E7823514352C0400D8594F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D7E7823914352C0400D8594F /* NavigationControllerExample-Info.plist */ = {isa = PBXFileReference; path = "NavigationControllerExample-Info.plist"; sourceTree = "<group>"; };
+		D7E7823914352C0400D8594F /* NavigationControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationControllerExample-Info.plist"; sourceTree = "<group>"; };
 		D7E7823B14352C0400D8594F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7E7823D14352C0400D8594F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D7E7823F14352C0400D8594F /* NavigationControllerExample-Prefix.pch */ = {isa = PBXFileReference; path = "NavigationControllerExample-Prefix.pch"; sourceTree = "<group>"; };
-		D7E7824014352C0400D8594F /* NavigationControllerExampleAppDelegate.h */ = {isa = PBXFileReference; path = NavigationControllerExampleAppDelegate.h; sourceTree = "<group>"; };
+		D7E7823F14352C0400D8594F /* NavigationControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		D7E7824014352C0400D8594F /* NavigationControllerExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationControllerExampleAppDelegate.h; sourceTree = "<group>"; };
 		D7E7824114352C0400D8594F /* NavigationControllerExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerExampleAppDelegate.m; sourceTree = "<group>"; };
 		D7E7824414352C0400D8594F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D7E7824B14352C5000D8594F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D7E7824C14352C5000D8594F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D7E7824D14352C5000D8594F /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		D7E7825014352C6000D8594F /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		D7E7825114352C6000D8594F /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
+		D7E7825214352C6000D8594F /* AnotherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherViewController.xib; sourceTree = "<group>"; };
+		D7E7825514352FFD00D8594F /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
+		D7E7825614352FFD00D8594F /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
+		D7E7825714352FFD00D8594F /* LastViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,15 @@
 				D7E7824114352C0400D8594F /* NavigationControllerExampleAppDelegate.m */,
 				D7E7824314352C0400D8594F /* MainWindow.xib */,
 				D7E7823814352C0400D8594F /* Supporting Files */,
+				D7E7824B14352C5000D8594F /* FirstViewController.h */,
+				D7E7824C14352C5000D8594F /* FirstViewController.m */,
+				D7E7824D14352C5000D8594F /* FirstViewController.xib */,
+				D7E7825014352C6000D8594F /* AnotherViewController.h */,
+				D7E7825114352C6000D8594F /* AnotherViewController.m */,
+				D7E7825214352C6000D8594F /* AnotherViewController.xib */,
+				D7E7825514352FFD00D8594F /* LastViewController.h */,
+				D7E7825614352FFD00D8594F /* LastViewController.m */,
+				D7E7825714352FFD00D8594F /* LastViewController.xib */,
 			);
 			path = NavigationControllerExample;
 			sourceTree = "<group>";
@@ -142,6 +166,9 @@
 			files = (
 				D7E7823C14352C0400D8594F /* InfoPlist.strings in Resources */,
 				D7E7824514352C0400D8594F /* MainWindow.xib in Resources */,
+				D7E7824F14352C5000D8594F /* FirstViewController.xib in Resources */,
+				D7E7825414352C6000D8594F /* AnotherViewController.xib in Resources */,
+				D7E7825914352FFD00D8594F /* LastViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +181,9 @@
 			files = (
 				D7E7823E14352C0400D8594F /* main.m in Sources */,
 				D7E7824214352C0400D8594F /* NavigationControllerExampleAppDelegate.m in Sources */,
+				D7E7824E14352C5000D8594F /* FirstViewController.m in Sources */,
+				D7E7825314352C6000D8594F /* AnotherViewController.m in Sources */,
+				D7E7825814352FFD00D8594F /* LastViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
