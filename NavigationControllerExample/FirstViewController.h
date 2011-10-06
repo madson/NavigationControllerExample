@@ -2,16 +2,12 @@
 //  FirstViewController.h
 //  NavigationControllerExample
 //
-//  Created by Madson on 29/09/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Madson Cardoso on 29/09/11.
+//  Copyright 2011 www.madsonmac.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@class AnotherViewController;
-
-@interface FirstViewController : UITableViewController {
-    AnotherViewController *anotherView;
-}
+@interface FirstViewController : UITableViewController
 
 @end

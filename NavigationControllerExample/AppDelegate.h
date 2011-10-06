@@ -1,5 +1,5 @@
 //
-//  AnotherViewController.h
+//  NavigationControllerExampleAppDelegate.h
 //  NavigationControllerExample
 //
 //  Created by Madson Cardoso on 29/09/11.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AnotherViewController : UITableViewController
+@interface AppDelegate : NSObject <UIApplicationDelegate>
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end
