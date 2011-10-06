@@ -12,7 +12,7 @@
 		D7E7823614352C0400D8594F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E7823514352C0400D8594F /* CoreGraphics.framework */; };
 		D7E7823C14352C0400D8594F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7E7823A14352C0400D8594F /* InfoPlist.strings */; };
 		D7E7823E14352C0400D8594F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7823D14352C0400D8594F /* main.m */; };
-		D7E7824214352C0400D8594F /* NavigationControllerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7824114352C0400D8594F /* NavigationControllerExampleAppDelegate.m */; };
+		D7E7824214352C0400D8594F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7824114352C0400D8594F /* AppDelegate.m */; };
 		D7E7824514352C0400D8594F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E7824314352C0400D8594F /* MainWindow.xib */; };
 		D7E7824E14352C5000D8594F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7824C14352C5000D8594F /* FirstViewController.m */; };
 		D7E7824F14352C5000D8594F /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E7824D14352C5000D8594F /* FirstViewController.xib */; };
@@ -31,8 +31,8 @@
 		D7E7823B14352C0400D8594F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7E7823D14352C0400D8594F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7E7823F14352C0400D8594F /* NavigationControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationControllerExample-Prefix.pch"; sourceTree = "<group>"; };
-		D7E7824014352C0400D8594F /* NavigationControllerExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationControllerExampleAppDelegate.h; sourceTree = "<group>"; };
-		D7E7824114352C0400D8594F /* NavigationControllerExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerExampleAppDelegate.m; sourceTree = "<group>"; };
+		D7E7824014352C0400D8594F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7E7824114352C0400D8594F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D7E7824414352C0400D8594F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		D7E7824B14352C5000D8594F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		D7E7824C14352C5000D8594F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
@@ -89,8 +89,8 @@
 		D7E7823714352C0400D8594F /* NavigationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				D7E7824014352C0400D8594F /* NavigationControllerExampleAppDelegate.h */,
-				D7E7824114352C0400D8594F /* NavigationControllerExampleAppDelegate.m */,
+				D7E7824014352C0400D8594F /* AppDelegate.h */,
+				D7E7824114352C0400D8594F /* AppDelegate.m */,
 				D7E7824314352C0400D8594F /* MainWindow.xib */,
 				D7E7823814352C0400D8594F /* Supporting Files */,
 				D7E7824B14352C5000D8594F /* FirstViewController.h */,
@@ -180,7 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E7823E14352C0400D8594F /* main.m in Sources */,
-				D7E7824214352C0400D8594F /* NavigationControllerExampleAppDelegate.m in Sources */,
+				D7E7824214352C0400D8594F /* AppDelegate.m in Sources */,
 				D7E7824E14352C5000D8594F /* FirstViewController.m in Sources */,
 				D7E7825314352C6000D8594F /* AnotherViewController.m in Sources */,
 				D7E7825814352FFD00D8594F /* LastViewController.m in Sources */,
@@ -293,6 +293,7 @@
 				D7E7824A14352C0400D8594F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
